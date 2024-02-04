@@ -8,6 +8,7 @@ tokio = { version = "1", features = ["macros"] }
 serde_json = { version = "1", features = ["raw_value"] }
 # Documentation: https://docs.rs/vercel_runtime/latest/vercel_runtime
 vercel_runtime = { version = "1.1.0" }
+rand = "0.8.5"
 
 # You can specify a library for shared logic here (optional)
 # [lib]
@@ -15,8 +16,8 @@ vercel_runtime = { version = "1.1.0" }
 
 # Each handler has to be specified as [[bin]]
 [[bin]]
-name = "handler"
-path = "api/handler.rs"
+name = "rust-route"
+path = "api/rust-route.rs"
 
 # Note that you need to provide unique names for each binary:
 # [[bin]]
