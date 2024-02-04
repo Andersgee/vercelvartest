@@ -1,5 +1,3 @@
-//import random from 'random';
-//import shishua from 'shishua';
 import { NextRequest } from "next/server";
 
 export const dynamic = "force-dynamic";
